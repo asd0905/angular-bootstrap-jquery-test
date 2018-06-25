@@ -1,3 +1,4 @@
+/*
 $grid-breakpoints: (
 		xs: 0,
 		sm: 576px,
@@ -11,4 +12,15 @@ $grid-breakpoints: (
 }
 @media (max-width: 900px) {
 	div { background-color: black; }
+}*/
+
+header {
+	&.navbar { background: linear-gradient(135deg,#0143a3,#0273d4); }
+	#navbarSupportedContent1 {
+		/*@media (min-width: 992px) {
+			.d-lg-block {
+				display: block!important;
+			}
+		}*/
+	}
 }

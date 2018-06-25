@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import * as $ from 'jquery';
+import { ActivatedRoute, Router } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -9,12 +10,7 @@ import * as $ from 'jquery';
 export class AppComponent {
   title = 'app';
 
-  constructor() {
-      $(document).ready(function(){
-          /*$("button").click(function(){
-              var div = $("div");
-              div.toggle();
-          });*/
-      });
+  constructor(private router: Router) {
+
   }
 }
